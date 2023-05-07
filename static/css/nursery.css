@@ -1,0 +1,82 @@
+body {
+    background: orange;
+    background: white;
+    overflow-x: scroll;
+    color: rgb(40, 40, 40)
+}
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+    margin-left: 15px;
+}
+
+
+div.header {
+    background: darkblue;
+    margin: 0;
+    padding: 5px;
+}
+
+div, ol {
+    font-family: georgia;
+}
+
+
+div p, table {
+    line-height: 1.5;
+}
+
+div.table {
+    overflow: scroll;
+}
+
+div table td{
+    padding: 5px;
+}
+div.code {
+    margin-top: 50px;
+    color: darkgreen;
+    background: lightyellow;
+    border: 1px solid orange;
+    padding-top: 0px;
+    line-height: 1.5;
+    width: 80%;
+    overflow-x: scroll;
+}
+
+div.code .lines {
+    padding-top: 20px;
+}
+
+div.code div {
+    color: white;
+    background: rgb(50, 50, 50);
+    font-family: tahoma;
+    border: 1px solid grey;
+    display: inline-block;
+    width: 70px;
+    overflow-x: scroll;
+    padding-left: 5px;
+}
+
+li {
+    padding-top: 5px;
+}
+
+li span {
+    color: brown;
+}
+
+span {
+    color: darkred;
+}
+
+table, td, th  {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+
