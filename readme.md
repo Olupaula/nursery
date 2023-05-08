@@ -47,10 +47,18 @@ for [K-Nearest Neighbours](https://dl.acm.org/doi/10.1145/3459665)
 
 **Summary Table for the Models**
 
-|A  |B  |C  |
-|---|---|---|
-|me |c  |e  |
+|S/N  |Model Name                               |Out of Bag Score |Out of Bag Error |Test Accuracy|
+|-----|-----------------------------------------|-----------------|-----------------|-------------|
+|  1  |  Random Forest                          |  0.9476         | 0.0524          | 0.9491      |
+|  2  |  Extremely Randomized Trees             |  0.9465         | 0.0535          | 0.9541      |
+|  3  |  Bagging for K-Nearest Neighbour        |  0.9508         | 0.0492          | 0.9572      |
+|  4  |  Stochastic Gradient Tree Boosting      |  0.9465         | 0.0535          | 0.0479      |
+|     |                                         |                 |                 |             |
 
+Random Forest   
+1         Extremely Randomized Trees   
+2    Bagging for K-Nearest Neighbour   
+3  Stochastic Gradient Tree Boosting
 **Best Model**: The best model was a Bagging KNN model.
 
 [View Code on Kaggle](https://www.kaggle.com/code/oluade111/nursery-notebook)
