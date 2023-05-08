@@ -47,7 +47,7 @@ for [K-Nearest Neighbours](https://dl.acm.org/doi/10.1145/3459665)
 
 **Summary Table for the Models**
 
-|S/N  |Model Name                               |Out of Bag Score |Out of Bag Error |Test Accuracy|
+|S/N  |Model Name                               |Out of Bag Score |Out of Bag Error |Test Accuracy Score|
 |-----|-----------------------------------------|-----------------|-----------------|-------------|
 |  1  |  Random Forest                          |  0.9476         | 0.0524          | 0.9491      |
 |  2  |  Extremely Randomized Trees             |  0.9465         | 0.0535          | 0.9541      |
