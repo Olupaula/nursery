@@ -26,9 +26,12 @@ of admitting or refusing to admit students.
 - admission: not_recom, recommend, very_recom, priority, special priority 
 (The target was later collapsed into only three in this work: "not recommended", "recommended without special priority", "recommended with special priority" )
 
-**Visizualition**
+#### Visualization of Target Variable
 
 <img src=https://github.com/Olupaula/nursery/blob/master/nursery_images/bar_plot_of_admission_status.jpeg height='50%' width='60%'>
+
+4320 prospective were not recommended, 4595 of the prospective students where recommended without any special priority while about 4044 prospective students were recommended with special priority.
+
 
 **Classification Technique used**:
 - [Random Forest](https://link.springer.com/article/10.1023/a:1010933404324) 
