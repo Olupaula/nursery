@@ -52,7 +52,7 @@ for [K-Nearest Neighbours](https://dl.acm.org/doi/10.1145/3459665)
 |  1  |  Random Forest                          |  0.9476         | 0.0524          | 0.9491      |
 |  2  |  Extremely Randomized Trees             |  0.9465         | 0.0535          | 0.9541      |
 |  3  |  Bagging for K-Nearest Neighbour        |  0.9508         | 0.0492          | 0.9572      |
-|  4  |  Stochastic Gradient Tree Boosting      |  0.9465         | 0.0535          | 0.0479      |
+|  4  |  Stochastic Gradient Tree Boosting      |  0.9465         | 0.0535          | 0.9479      |
 |     |                                         |                 |                 |             |
 
 Random Forest   
