@@ -59,6 +59,7 @@ Random Forest
 1         Extremely Randomized Trees   
 2    Bagging for K-Nearest Neighbour   
 3  Stochastic Gradient Tree Boosting
+
 **Best Model**: The best model was a Bagging KNN model.
 
 [View Code on Kaggle](https://www.kaggle.com/code/oluade111/nursery-notebook)
