@@ -43,7 +43,7 @@ for [K-Nearest Neighbours](https://dl.acm.org/doi/10.1145/3459665)
 
 **Evaluation Metric**: 
 - [Out of bag score/Out of bag error](https://scikit-learn.org/stable/auto_examples/ensemble/plot_ensemble_oob.html) 
-- [Accuracy](https://link.springer.com/chapter/10.1007/11941439_114)
+- [Accuracy Score](https://link.springer.com/chapter/10.1007/11941439_114)
 
 **Summary Table for the Models**
 
