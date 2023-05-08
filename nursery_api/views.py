@@ -1,7 +1,4 @@
 from django.shortcuts import render
-from django.http import HttpResponse
-from django.shortcuts import render
-from django.http import HttpResponse
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from .apps import NurseryApiConfig
@@ -29,17 +26,21 @@ class DetermineAdmissionStatus(APIView):
             health
         ]])
 
-        # A prediction of 1 means that the employee will likely be an absentee while a prediction of 0 mean he won't
+        """
+            A prediction of 0 means that the prospective student is not recommended, 
+            a prediction of 1 means that the prospective student is recommended without special priority
+            while a prediction of 2 means that he/she is recommended with special priority
+        """
         admission_status = (
-            "Not Recommended" if prediction[0] == 1
+            "Not Recommended" if prediction[0] == 0
             else "Recommended Without Special Priority" if prediction[0] == 1
             else "Recommended With Special Priority"
         )
 
-        response_dict = {"predicted_character": admission_status}
+        response_dict = {"admission_status": admission_status}
         print(response_dict)
 
-        return Response(response_dict, status=200)
+        return Response(response_dict)
 
     def get(self, request):
         template_name = "nursery_api/nursery_api_home.html"
