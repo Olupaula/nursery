@@ -26,6 +26,9 @@ of admitting or refusing to admit students.
 - admission: not_recom, recommend, very_recom, priority, special priority 
 (The target was later collapsed into only three in this work: "not recommended", "recommended without special priority", "recommended with special priority" )
 
+**Visizualition**
+<img src=https://github.com/Olupaula/nursery/blob/master/nursery_images/bar_plot_of_admission_status.jpeg height='50%' width='60%'>
+
 **Classification Technique used**:
 - [Random Forest](https://link.springer.com/article/10.1023/a:1010933404324) 
 - [Extremely Randomized Trees](https://orbi.uliege.be/bitstream/2268/9357/1/geurts-mlj-advance.pdf)  
