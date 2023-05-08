@@ -27,6 +27,7 @@ of admitting or refusing to admit students.
 (The target was later collapsed into only three in this work: "not recommended", "recommended without special priority", "recommended with special priority" )
 
 **Visizualition**
+
 <img src=https://github.com/Olupaula/nursery/blob/master/nursery_images/bar_plot_of_admission_status.jpeg height='50%' width='60%'>
 
 **Classification Technique used**:
