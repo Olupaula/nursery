@@ -36,28 +36,38 @@ div table td{
 }
 div.code {
     margin-top: 50px;
-    color: darkgreen;
-    background: lightyellow;
+    color: lightyellow;
+    background: rgb(30, 30, 30);
     border: 1px solid orange;
     padding-top: 0px;
     line-height: 1.5;
-    width: 80%;
+    width: 100%;
     overflow-x: scroll;
 }
 
+@media screen and (min-width: 800px) {
+   div.code {
+        width: 80%;
+        margin: auto;
+   }
+}
 div.code .lines {
     padding-top: 20px;
 }
 
 div.code div {
     color: white;
-    background: rgb(50, 50, 50);
+    background: rgb(60, 60, 60);
     font-family: tahoma;
     border: 1px solid grey;
     display: inline-block;
     width: 70px;
     overflow-x: scroll;
     padding-left: 5px;
+}
+
+pre {
+
 }
 
 li {
@@ -68,15 +78,23 @@ li span {
     color: brown;
 }
 
-span {
-    color: darkred;
+span.primary {
+    color: orange;
+}
+
+span.secondary {
+    color: lightgreen;
+}
+
+span.strings {
+    color: lightblue;
 }
 
 table, td, th  {
     border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
+    margin: auto;
 }
-
 
 
