@@ -116,20 +116,26 @@
      <div class="code">
          <div>client.py</div>
          <pre>
-            <span>import</span> requests
+            <span class="primary">import</span> <span class="secondary">requests</span>
 
             endpoint = "http://127.0.0.1:8000/nursery_api"
-            dict = {
+            nursery_dict = {
                 'parents': 1,
                 'has_nurs': 2,
                 'children': 1,
-                'housing': 2,
+                'housing': 1,
                 'finance': 1,
                 'health': 2
             }
 
-            predict = <span>requests</span>.post(endpoint, json=dict)
-            <span>print</span>(predict)
+            predict = <span class="secondary">requests</span>.<span class="secondary">post</span>(endpoint, json=nursery_dict)
+
+            admission_status_dictionary = predict.<span class="secondary">json()</span>
+            <span class="primary">print</span>(<span class="strings">"Admission Status Dictionary = "</span>,  admission_status_dictionary)
+
+            admission_status = admission_status_dictionary[<span class="strings">'admission_status'</span>]
+            <span class="primary">print</span>(<span class="strings">"Amission Status = "</span>, admission_status)
+
          </pre>
      </div>
     <p>  </p>
