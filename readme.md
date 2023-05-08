@@ -47,9 +47,9 @@ for [K-Nearest Neighbours](https://dl.acm.org/doi/10.1145/3459665)
 
 **Summary Table for the Models**
 
-|A|B|C|
-_______
-|me|c|e|
+|A  |B  |C  |
+|---|---|---|
+|me |c  |e  |
 
 **Best Model**: The best model was a Bagging KNN model.
 
