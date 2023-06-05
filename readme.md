@@ -1,7 +1,7 @@
 ### NURSERY
 This is [model](https://learn.microsoft.com/en-us/windows/ai/windows-ml/what-is-a-machine-learning-model) 
 that predicts whether a child will be admitted to a nursery school or not on the basis of a number 
-of features. Suppose you want your child to be admitted to such a school
+of features. Suppose you want your child to be admitted to such a school.
 The model is important to a school since, the school can use it to objectively determine whom should admitted and who
 should not. A thousand argument can go on between staffs of the school and parents if a child were to be arbitrarily 
 rejected. 
