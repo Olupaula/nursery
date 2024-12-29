@@ -1,4 +1,4 @@
-### NURSERY
+### Machine Learning Classifiers for Nursery School Admissions
 This is [model](https://learn.microsoft.com/en-us/windows/ai/windows-ml/what-is-a-machine-learning-model) 
 that predicts whether a child will be admitted to a nursery school or not on the basis of a number 
 of features. Suppose you want your child to be admitted to such a school.
